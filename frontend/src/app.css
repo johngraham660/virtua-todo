@@ -1,0 +1,34 @@
+/* Global styles for the TODO application */
+:root {
+	--bg-color: #ffffff;
+	--text-color: #333333;
+	--border-color: #e0e0e0;
+	--accent-color: #007acc;
+	--completed-color: #888888;
+	--error-color: #dc3545;
+	--success-color: #28a745;
+}
+
+[data-theme="dark"] {
+	--bg-color: #1a1a1a;
+	--text-color: #e0e0e0;
+	--border-color: #404040;
+	--accent-color: #4a9eff;
+	--completed-color: #888888;
+	--error-color: #ff6b6b;
+	--success-color: #51cf66;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	line-height: 1.5;
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
