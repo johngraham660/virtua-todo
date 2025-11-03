@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: todo-backend
-        image: todo-backend:latest
+        image: johngraham660/todo_app_backend:v0.0.1
         ports:
         - containerPort: 8000
         env:

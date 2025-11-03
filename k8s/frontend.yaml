@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: todo-frontend
-        image: todo-frontend:latest
+        image: johngraham660/todo_app_frontend:v0.0.1
         ports:
         - containerPort: 80
         resources:
